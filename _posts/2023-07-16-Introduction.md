@@ -7,4 +7,4 @@ img_path: /imgs
 ---
 # Welcome
 
-Hey everyone! This is my personal website, which will tell you more about myself and contains documentation for my projects. 
+Hey everyone! This is my personal website. This website will tell you more about myself and will contain documentation for my projects. 
