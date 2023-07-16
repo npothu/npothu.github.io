@@ -23,7 +23,7 @@ title: Nathan Pothuganti # the main title
 tagline: Personal Website # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-Nathan Pothuganti's personal site
+  Nathan Pothuganti's Personal Site
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: "https://npothu.github.io"
