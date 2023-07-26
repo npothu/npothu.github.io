@@ -73,7 +73,7 @@ Very minimal walkthrough of creating a font of your own to be used with my progr
     ![Desktop View](xArm5.png)
 
 10. Open up the processing script again. Make sure that the font is set the the same name as the csv file you created. Put in the name of the font (rather, the name of the font file you created excluding the file extension). Make sure you have setup the else-if statement with your font's specifics as stated earlier.
-    ![Desktop View](processing1.png)
+    ![Desktop View](processing2.png)
     
 11. Run the Processing script.. If weird characters come up when typing, try right-clicking our curve in Grasshopper and select “Reverse.” Then, right-click the panel and stream the contents again. You should be all set now!
     ![Desktop View](xArm6.png)
