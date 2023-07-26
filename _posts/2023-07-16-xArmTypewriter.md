@@ -13,6 +13,7 @@ This is a project I pursued by myself while at the RDF Lab @ FIU. I was inspired
 A user is able to use a keyboard to draw out characters/words with the xArm collaborative robot. The user will be able to select between a few fonts and can adjust the font size.
 
 ### Download / Github Link / Explain Program Usage
+
 Make sure you have the latest version of [Python](https://www.python.org/downloads/), [Processing](https://processing.org/download), [xArm Python SDK](https://github.com/xArm-Developer/xArm-Python-SDK) (make sure to install the library properly!), and [uFactory Studio](https://www.ufactory.cc/ufactory-studio/). It is recommended you use Visual Studio Code as it makes it easy to navigate through any Python and csv files you will be using. If you will be creating your own fonts or designs, make sure you have Rhinoceros 3D installed. 
 
 # Documentation
