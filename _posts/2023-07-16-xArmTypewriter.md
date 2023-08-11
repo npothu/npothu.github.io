@@ -14,9 +14,12 @@ A user is able to use a keyboard to draw out characters/words with the xArm coll
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/J4l4Ozv_9fU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-![](TimesVNew.jpg)
-![](Characters.jpg)
-![](LightRDF.jpg)
+![Desktop View](TimesVNew.jpg)
+![Desktop View](Characters.jpg)
+
+The following is a print created through long-exposure flash photography (light-writing). The video is sped up by 5x.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kNiO1qVXEhk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+![Desktop View](LightRDF.jpg)
 
 ### Download / Github Link / Explain Program Usage
 
