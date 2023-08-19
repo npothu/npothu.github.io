@@ -33,7 +33,22 @@ Make sure you have the latest version of:
 
 # Documentation
 
+### Creating Characters
+Using Rhino, I created 2D-Characters outlines of the ASCII values 33 to 126. Using Grasshopper, I turned the characters into closed polylines, with each polyline containing 50 points (though this can be adjusted). A character may be made up of more than 1 polyline; for example, the letter O contains two polylines as two closed lines are required to draw it. The points from these polylines are exported into 1 CSV file.
 
+### Interpreting CSV
+Using Processing, a software that provides visualization using Java, we can visualize the points the robot will follow when drawing out the letters. The CSV we created contains lines of xyz coordinates (though z=0). We first determine the font file we are using and initialize variables relating to the specific font (e.g. assigning characters with 3 curves to an array of 3-curve values). We then initialize a 3D-Array List of char[point][x-y-coords]. This array is populated with the font file we created, accounting for the configured variables.
+
+### Visualizing User Input
+The Processing script continuously listens for user input. When the user inputs a valid character, the script prints the character to the screen accounting for room left on page/screen and progressing to a new line just like on a document. The corresponding points for the character are printed on screen. At the same time, a new CSV is being updated with translated xyz coordinates that will be used with the xArm6 robot.
+
+### xArm Drawing
+A Python script is used to control the xArm. The script uses the xarm API and continuously waits for updates in the xArm-translated CSV file. It then brings the robot end effector to those coordinates with a preset pose. The robot then drags the pen along these coordinates. The robot is to re-draw the first few points of the polyline to ensure that the polyline is properly closed. Once finished with a line, the robot brings the tool up to make sure polylines don't connect and then proceeds to draw the next polyline.
+
+### Pen Plotter End-effector
+I adapted a [design](https://www.thingiverse.com/thing:2369089) I found from Thingiverse to work with the writing tools I wanted, to fit my custom spring size, and to mount as an end effector. This modified design was created in Rhino and printed on a Prusa printer.
+
+### Process Table
 |            | Rhinoceros & Grasshopper                      | Processing          | xArm         |
 |:-----      |:----------------------------------------------|:-----------------------------------|-------:|
 | Input      | ASCII String (char of values 33-126)          | ASCII Key (from Keyboard), Font.CSV|Coordinates.CSV|
@@ -44,7 +59,7 @@ Make sure you have the latest version of:
 Things to account for:
 This process will use 3 different coordinate systems. The Rhino Geometry needs to be converted from x,y,z to the appropriate x,y of processing script to the appropriate x,y,z of the xArm.
 
-## Creating Fonts w/ Rhino & Grasshopper
+# Creating Fonts w/ Rhino & Grasshopper
 
 Very minimal walkthrough of creating a font of your own to be used with my program.  In my code, I created the fonts laying flat on Y vs. X.
 
