@@ -49,11 +49,11 @@ A Python script is used to control the xArm. The script uses the xarm API and co
 I adapted a [design](https://www.thingiverse.com/thing:2369089) I found from Thingiverse to work with the writing tools I wanted, to fit my custom spring size, and to mount as an end effector. This modified design was created in Rhino and printed on a Prusa printer.
 
 ### Process Table
-|            | Rhinoceros & Grasshopper                      | Processing          | xArm         |
-|:-----      |:----------------------------------------------|:-----------------------------------|-------:|
-| Input      | ASCII String (char of values 33-126)          | ASCII Key (from Keyboard), Font.CSV|Coordinates.CSV|
-| Geometry   | Character Polyline (group made of many points)| Coordinates 3D Array {char#}(Point#)(x,y)|Line Path of connecting a certain number of points per character line      |
-| Output     | Font.CSV| Character Points Drawing on Screen, Coordinates.CSV | Drawing (Char Outline) through robot movement|
+|| Rhinoceros & Grasshopper| Processing|xArm|
+|-|-|-|-|
+|Input|ASCII String (char of values 33-126)|ASCII Key (from Keyboard), Font.CSV|Coordinates.CSV|
+|Geometry|Character Polyline (group made of many points)| Coordinates 3D Array {char#}(Point#)(x,y)|Line Path of connecting a certain number of points per character line|
+|Output| Font.CSV| Character Points Drawing on Screen, Coordinates.CSV | Drawing (Char Outline) through robot movement|
 | Coordinate Plane | x y z (z=0) | x y | x y z (z toggled for pen-up)|
 
 Things to account for:
