@@ -2,7 +2,7 @@
 title: About me
 date: 2023-07-16 07:30:00 -0500
 categories: [General, Introduction]
-tags: []     # TAG names should always be lowercase
+tags: [robotics]     # TAG names should always be lowercase
 img_path: /imgs
 comments: true
 ---
