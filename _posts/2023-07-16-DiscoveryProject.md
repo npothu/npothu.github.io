@@ -14,6 +14,7 @@ The sheets each have 2 respective LEDs to diffuse light to display the correct c
 
 The image below shows a design I would like to replicate (but hours + minutes only). 
 ![Desktop View](DPIdea.png)
+
 https://www.tindie.com/products/lixielabs/lixie-ii-the-newnixie-for-arduino-digit-kit/
 
 # The Process
@@ -22,6 +23,7 @@ To start, I decided that I figure out how to design my PCB. To do so, I learned 
 The PCB design should look similar to the product below: 
 
 ![Desktop View](DPPCBIdea.png)
+
 https://www.tindie.com/products/lixielabs/lixie-ii-the-newnixie-for-arduino-digit-kit/
 
 rest of page WIP....
