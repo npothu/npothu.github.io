@@ -1,5 +1,5 @@
 ---
-title: Discovery_Project
+title: Discovery Project
 date: 2023-07-16 07:30:00 -0500
 categories: [General, Introduction]
 tags: [aboutMe]     # TAG names should always be lowercase
