@@ -1,5 +1,5 @@
 ---
-title: Career Goals
+title: Career Goals & Resume
 date: 2024-011-13 04:05:00 -0500
 categories: [General, Introduction]
 tags: []     # TAG names should always be lowercase
@@ -32,6 +32,9 @@ Year 3 & 4:
 Develop software & ECE projects
 Solidify the areas I would like to work in, taking specialized classes in areas I enjoy
 Become very skilled with the tools at the makerspace
+
+<object data="{{ npothu.github.io/posts/Career_Goals_&_Resume/ }}{{ npothu.github.io }}/_pdfs/Resume.pdf" width="1000" height="1000" type="application/pdf"></object>
+
 
 
 
