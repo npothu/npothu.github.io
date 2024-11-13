@@ -39,7 +39,7 @@ Here is the schematic I created for my PCB. The PCB schematic shows the 22 LEDs 
 
 ![Desktop View](DPSch.png)
 
-My PCB layout will not have VOs. I decided to do this because the PCB printers at the HIVE are limited in their ability to do that. I plan to use the HIVE printers to learn how the machines function, and to have a prototype to mess with before ordering the real things. 
+My PCB layout will not have Vias. I decided to do this because the PCB printers at the HIVE are limited in their ability to do that. I plan to use the HIVE printers to learn how the machines function, and to have a prototype to mess with before ordering the real things. 
 
 Because the order made for my PCBs and LEDs will take a while to arrive, my progress is shifted to the design of my casing.
 
