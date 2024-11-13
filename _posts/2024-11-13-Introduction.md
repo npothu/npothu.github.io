@@ -5,7 +5,6 @@ categories: [General, Introduction]
 tags: []     # TAG names should always be lowercase
 img_path: /imgs
 comments: true
-pin: true
 ---
 # Welcome
 
