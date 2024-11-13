@@ -33,7 +33,7 @@ Develop software & ECE projects
 Solidify the areas I would like to work in, taking specialized classes in areas I enjoy
 Become very skilled with the tools at the makerspace
 
-<object data="{{ npothu.github.io/posts/Career_Goals_&_Resume/ }}{{ npothu.github.io }}/_pdfs/Resume.pdf" width="1000" height="1000" type="application/pdf"></object>
+<object data="{{ npothu.github.io/posts/Career_Goals_&_Resume/ }}{{ npothu.github.io }}/imgs/Pothuganti_Resume_1100.pdf" width="1000" height="1000" type="application/pdf"></object>
 
 
 
