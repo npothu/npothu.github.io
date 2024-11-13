@@ -9,6 +9,7 @@ pin : true
 ---
 
 ![Desktop View](DPIdea.png)
+
 https://www.tindie.com/products/lixielabs/lixie-ii-the-newnixie-for-arduino-digit-kit/
 
 # The Idea
