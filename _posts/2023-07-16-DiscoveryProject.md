@@ -8,16 +8,23 @@ comments: true
 pin : true
 ---
 
-![Desktop View](DPIdea.png)
+![Desktop View](Nixie.jpg)
 
-https://www.tindie.com/products/lixielabs/lixie-ii-the-newnixie-for-arduino-digit-kit/
 
 # The Idea
+
+Nixie tube clocks, which were used throughout the 1950s, use glowing cathods to represent time. I found them to be really cool and loved their vintage look. However, it is really expensive to get the tubes now.
+They are also very dangerous as they operate at a really high voltage. Wanting to make a similar clock, I saw the alternative many people were going to, the Lixie. 
 
 A digital clock that is inspired by old nixie-tube clocks.  Each digit slot (4 digits) has 11 sheets of acrylic etched numbers 0-9 respectively, and a back sheet that is set to transparent or dark.
 The sheets each have 2 respective LEDs to diffuse light to display the correct combination of digits. This means 44 LEDS.  
 
-The image above shows a design I would like to replicate (but hours + minutes only). 
+The image below shows a design I would like to replicate (but hours + minutes only). 
+
+![Desktop View](DPIdea.png)
+
+https://www.tindie.com/products/lixielabs/lixie-ii-the-newnixie-for-arduino-digit-kit/
+
 
 # Skills and Tools Utilized
 
