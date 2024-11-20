@@ -16,19 +16,27 @@ https://www.tindie.com/products/lixielabs/lixie-ii-the-newnixie-for-arduino-digi
 
 A digital clock that is inspired by old nixie-tube clocks.  Each digit slot (4 digits) has 11 sheets of acrylic etched numbers 0-9 respectively, and a back sheet that is set to transparent or dark.
 The sheets each have 2 respective LEDs to diffuse light to display the correct combination of digits. This means 44 LEDS.  
+
 The image above shows a design I would like to replicate (but hours + minutes only). 
 
 # Skills and Tools Utilized
 
-Skills I will utilize during this process include:
+Skills I have utilized during this process include:
 - PCB Design and Fabrication
 - Microcontroller programming
 - Basic 3D-printing & laser-cutting
 - Soldering
 
+# My experience getting started
+
+I needed to learn how to design a PCB. I watched some youtube tutorials and got assistance from some Peer Instructors at the Hive, the ECE MakerSpace. 
+
+To get some experience with laser cutting, I attended a laser cutting workshop at the HIVE. I designed and laser cut a wooden clock.
+
 # The Process
 
 To start, I decided that I figure out how to design my PCB. To do so, I learned how to create a PCB using Altium Designer with help from peer instructors at the HIVE.
+
 The PCB design should look similar to the product below:
 
 ![Desktop View](DPPCBIdea.png)
@@ -39,11 +47,6 @@ Here is the schematic I created for my PCB. The PCB schematic shows the 22 LEDs 
 
 ![Desktop View](DPSch.png)
 
-My PCB layout will not have Vias. I decided to do this because the PCB printers at the HIVE are limited in their ability to do that. I plan to use the HIVE printers to learn how the machines function, and to have a prototype to mess with before ordering the real things. 
+My PCB layout will not have Vias. I decided to do this because the PCB printers at the HIVE are limited in their ability to do that. I plan to use the HIVE printers to learn how the machines function, and to have a prototype to mess with before ordering the real things. Here is a rough draft of the PCB board.
 
-Because the order made for my PCBs and LEDs will take a while to arrive, my progress is shifted to the design of my casing.
-
-rest of page WIP....
-
-# The Product
-page W.I.P. -- Hopefully physically build ready-ish by demo. 
+![Desktop View](DPBoard.png)
